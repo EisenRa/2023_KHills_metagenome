@@ -1,0 +1,11 @@
+reference,querry,ani,alignment_coverage,primary_cluster
+Bacillus_subtilis_complete_genome.fasta,Bacillus_subtilis_complete_genome.fasta,1.0,0.9977744807121661,3
+Cryptococcus_neoformans_draft_genome.fasta,Cryptococcus_neoformans_draft_genome.fasta,1.0,0.9788724035608308,7
+Enterococcus_faecalis_complete_genome.fasta,Enterococcus_faecalis_complete_genome.fasta,1.0,1.0,1
+Escherichia_coli_complete_genome.fasta,Escherichia_coli_complete_genome.fasta,1.0,0.9981527093596059,5
+Lactobacillus_fermentum_complete_genome.fasta,Lactobacillus_fermentum_complete_genome.fasta,1.0,0.9968503937007874,8
+Listeria_monocytogenes_complete_genome.fasta,Listeria_monocytogenes_complete_genome.fasta,1.0,0.9989969909729187,2
+Pseudomonas_aeruginosa_complete_genome.fasta,Pseudomonas_aeruginosa_complete_genome.fasta,1.0,0.9986749116607774,9
+Saccharomyces_cerevisiae_draft_genome.fasta,Saccharomyces_cerevisiae_draft_genome.fasta,1.0,0.9945958646616542,10
+Salmonella_enterica_complete_genome.fasta,Salmonella_enterica_complete_genome.fasta,1.0,1.0,6
+Staphylococcus_aureus_complete_genome.fasta,Staphylococcus_aureus_complete_genome.fasta,1.0,0.998898678414097,4

@@ -1,0 +1,11 @@
+genome,secondary_cluster,threshold,cluster_method,comparison_algorithm,primary_cluster
+Enterococcus_faecalis_complete_genome.fasta,1_0,0.020000000000000018,average,fastANI,1
+Listeria_monocytogenes_complete_genome.fasta,2_0,0.020000000000000018,average,fastANI,2
+Bacillus_subtilis_complete_genome.fasta,3_0,0.020000000000000018,average,fastANI,3
+Staphylococcus_aureus_complete_genome.fasta,4_0,0.020000000000000018,average,fastANI,4
+Escherichia_coli_complete_genome.fasta,5_0,0.020000000000000018,average,fastANI,5
+Salmonella_enterica_complete_genome.fasta,6_0,0.020000000000000018,average,fastANI,6
+Cryptococcus_neoformans_draft_genome.fasta,7_0,0.020000000000000018,average,fastANI,7
+Lactobacillus_fermentum_complete_genome.fasta,8_0,0.020000000000000018,average,fastANI,8
+Pseudomonas_aeruginosa_complete_genome.fasta,9_0,0.020000000000000018,average,fastANI,9
+Saccharomyces_cerevisiae_draft_genome.fasta,10_0,0.020000000000000018,average,fastANI,10

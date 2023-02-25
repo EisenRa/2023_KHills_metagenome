@@ -1,0 +1,11 @@
+genome,score,completeness,contamination,strain_heterogeneity,size,N50,cluster,taxonomy,tax_confidence,cluster_members,closest_cluster_member,furthest_cluster_member,completeness_metric,contamination_metric
+Enterococcus_faecalis_complete_genome.fasta,2.2470710530649187,NA,NA,NA,NA,NA,1_0,NA,NA,1,NA,NA,NA,NA
+Listeria_monocytogenes_complete_genome.fasta,2.258005614152476,NA,NA,NA,NA,NA,2_0,NA,NA,1,NA,NA,NA,NA
+Bacillus_subtilis_complete_genome.fasta,2.32349560324146,NA,NA,NA,NA,NA,3_0,NA,NA,1,NA,NA,NA,NA
+Staphylococcus_aureus_complete_genome.fasta,2.237187033243623,NA,NA,NA,NA,NA,4_0,NA,NA,1,NA,NA,NA,NA
+Escherichia_coli_complete_genome.fasta,2.3590512295304085,NA,NA,NA,NA,NA,5_0,NA,NA,1,NA,NA,NA,NA
+Salmonella_enterica_complete_genome.fasta,2.35879188878234,NA,NA,NA,NA,NA,6_0,NA,NA,1,NA,NA,NA,NA
+Cryptococcus_neoformans_draft_genome.fasta,1.2357864092928268,NA,NA,NA,NA,NA,7_0,NA,NA,1,NA,NA,NA,NA
+Lactobacillus_fermentum_complete_genome.fasta,2.1599854447102613,NA,NA,NA,NA,NA,8_0,NA,NA,1,NA,NA,NA,NA
+Pseudomonas_aeruginosa_complete_genome.fasta,2.436009388801804,NA,NA,NA,NA,NA,9_0,NA,NA,1,NA,NA,NA,NA
+Saccharomyces_cerevisiae_draft_genome.fasta,1.9071865751503787,NA,NA,NA,NA,NA,10_0,NA,NA,1,NA,NA,NA,NA
