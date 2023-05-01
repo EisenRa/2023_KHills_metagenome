@@ -12,6 +12,10 @@ git clone merenlab/reads-for-assembly.git
 
 # Create ANVIO conda environment and load it (https://anvio.org/install/)
 
+# Strain madness dataset: need to remove contigs <390 bp for anvio
+for i in source_genomes/*.fasta; do reformat.sh in=$i out=${i/.fasta/_RFD.fasta} minlength=391; done
+
+
 # Create the simulated metagenomes:
 ./reads-for-assembly/gen-paired-end-reads ../../../code/simulated_metagenome_profiles/sim_meta_1a.ini
 ./reads-for-assembly/gen-paired-end-reads ../../../code/simulated_metagenome_profiles/sim_meta_1b.ini
