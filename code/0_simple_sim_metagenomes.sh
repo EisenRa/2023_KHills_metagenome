@@ -22,6 +22,21 @@ for i in source_genomes/*.fasta; do reformat.sh in=$i out=${i/.fasta/_RFD.fasta}
 ./reads-for-assembly/gen-paired-end-reads ../../../code/simulated_metagenome_profiles/sim_meta_2a.ini
 ./reads-for-assembly/gen-paired-end-reads ../../../code/simulated_metagenome_profiles/sim_meta_3a.ini
 
+# add in human DNA
+seqtk sample -s 666 Human_reads_3-8M_1.fastq.gz 414169 > Human_reads_414169_1.fastq
+seqtk sample -s 666 Human_reads_3-8M_2.fastq.gz 414169 > Human_reads_414169_2.fastq
+seqtk sample -s 666 Human_reads_3-8M_1.fastq.gz 207084 > Human_reads_207084_1.fastq
+seqtk sample -s 666 Human_reads_3-8M_2.fastq.gz 207084 > Human_reads_207084_2.fastq
+seqtk sample -s 666 Human_reads_3-8M_1.fastq.gz 41416 > Human_reads_41416_1.fastq
+seqtk sample -s 666 Human_reads_3-8M_2.fastq.gz 41416 > Human_reads_41416_2.fastq
+
+cat sim_meta_zymo_divergent_1-R1.fastq.gz Human_reads_414169_1.fastq.gz > sim_meta_zymo_divergent_1_50pcHost-R1.fastq.gz
+cat sim_meta_zymo_divergent_1-R2.fastq.gz Human_reads_414169_2.fastq.gz > sim_meta_zymo_divergent_1_50pcHost-R2.fastq.gz
+cat sim_meta_zymo_divergent_1-R1.fastq.gz Human_reads_207084_1.fastq.gz > sim_meta_zymo_divergent_1_33pcHost-R1.fastq.gz
+cat sim_meta_zymo_divergent_1-R2.fastq.gz Human_reads_207084_2.fastq.gz > sim_meta_zymo_divergent_1_33pcHost-R2.fastq.gz
+cat sim_meta_zymo_divergent_1-R1.fastq.gz Human_reads_41416_1.fastq.gz > sim_meta_zymo_divergent_1_10pcHost-R1.fastq.gz
+cat sim_meta_zymo_divergent_1-R2.fastq.gz Human_reads_41416_2.fastq.gz > sim_meta_zymo_divergent_1_10pcHost-R2.fastq.gz
+
 gzip simple_simulated_metagenomes/*.fastq
 cp simple_simulated_metagenomes/sim_meta_1a-R1.fastq.gz simple_simulated_metagenomes/sim_meta_1aa-R1.fastq.gz 
 cp simple_simulated_metagenomes/sim_meta_1a-R2.fastq.gz simple_simulated_metagenomes/sim_meta_1aa-R2.fastq.gz 
